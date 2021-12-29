@@ -12,21 +12,7 @@ Created a tool that estimates postdoc salaries to help them to negotiate their i
   
 
 ## Web Scraping
-Scraped 200 jobs postings from glassdoor.com. With each job, we got the following:
-* Job title
-* Salary Estimate
-* Job Description
-* Rating
-* Company
-* Location
-* Company Headquarters
-* Company Size
-* Company Founded Date
-* Type of Ownership
-* Industry
-* Sector
-* Revenue
-* Competitors
+Scraped 400 jobs postings from glassdoor.com. 
 
 ## Data Cleaning
 After scraping the data, data is cleaned using pandas.Some of data cleaning steps are:
@@ -52,7 +38,7 @@ Scores of each columns (Random Forest)
 The Random Forest model far outperformed the other approaches on the test and validation sets. A screen shot of differnt evaluation metrices is as:
 ![model.png](Images/model0.png)
 
-* Random and predicted values using different models on test set
+##  Random and predicted values using different models on test set
 ![model1.png](Images/model1.png)
 
 ## Productionization
