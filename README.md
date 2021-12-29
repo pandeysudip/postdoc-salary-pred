@@ -32,8 +32,10 @@ Different linear models were used:
    * **Support vector machine** 
     * **Decision Tree**
    * **Random Forest** 
-Scores of each columns (Random Forest)
+   
+## Scores of each columns (Random Forest)
 ![model2.png](Images/model2.png)
+
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. A screen shot of differnt evaluation metrices is as:
 ![model.png](Images/model0.png)
