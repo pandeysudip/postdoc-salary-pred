@@ -45,5 +45,5 @@ The Random Forest model far outperformed the other approaches on the test and va
 
 ## Productionization
 Created a intrecative webpage using HTML, CSS, javascript,and Bootstrap and with Flask templating to create a new HTML page that displays all of the information. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
-![api.png](Images/model4.png)
+![api.png](Images/model3.png)
 
