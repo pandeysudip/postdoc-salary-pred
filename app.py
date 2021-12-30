@@ -30,6 +30,7 @@ def predic():
         predict = utilis.preprocess(variables)
         predict, *_ = predict
         # Return the template
+
         return render_template("index.html", pred=variables, prediction=predict)
     else:
         return render_template("index.html")
